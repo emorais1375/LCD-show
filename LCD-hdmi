@@ -9,6 +9,7 @@ sudo ./system_backup.sh
 sudo cp -rf ./boot/config-nomal.txt ./boot/config.txt.bak
 sudo echo "hdmi_force_hotplug=1" >> ./boot/config.txt.bak
 sudo echo "disable_splash=1" >> ./boot/config.txt.bak
+sudo echo "disable_overscan=1" >> ./boot/config.txt.bak
 sudo cp -rf ./boot/config.txt.bak /boot/config.txt
 
 sudo sync
